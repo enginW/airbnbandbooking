@@ -1,0 +1,44 @@
+@import "normalize";
+@import "variable";
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+a{
+    color: $primary-color;
+    text-decoration: none;
+}
+.container{
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    border-bottom: 1px solid #ddd;
+    .container{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+              }
+    .headerMenu{
+        margin-left: auto;
+        display: flex;
+        .headerMenuUser{
+            display: flex;
+            a{
+                font-weight: 500;
+                display: inline-flex;
+                align-items: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                height: $finger-size;
+                &:hover{
+                    color: $secondary-color;
+                }
+            }
+
+        }
+    }
+}
