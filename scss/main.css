@@ -356,6 +356,26 @@ a {
   margin-right: auto;
 }
 
+.button {
+  font-weight: 600;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 44px;
+  background-color: #ff5a5f;
+  color: white;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: red;
+}
+
 .header {
   border-bottom: 1px solid #ddd;
 }
@@ -399,5 +419,17 @@ a {
 
 .header .headerMenu .headerMenuUser a:hover {
   color: red;
+}
+
+.header .headerMenu .headerMenuSelect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .headerMenu .headerMenuSelect select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 /*# sourceMappingURL=main.css.map */
