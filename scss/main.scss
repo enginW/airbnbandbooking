@@ -173,6 +173,7 @@ a{
     background-size: cover;
     text-align: center;
     color: white;
+   
 }
 .search{
      background-color: $secondary-color;
@@ -182,6 +183,10 @@ a{
     .searchForm{
         position: relative;
         display: flex;
+        flex-direction: column;
+        @include rm(){
+            flex-direction: row;
+        }
 
     }
 
