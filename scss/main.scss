@@ -22,6 +22,7 @@ a{
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: inherit;
     height: $finger-size;
     background-color: $primary-color;
     color: white;
@@ -194,4 +195,36 @@ a{
     position: absolute;
     right: 0;
 }
+}
+.text{
+    font-family: inherit;
+    border: 0;
+    height: $finger-size;
+    border-radius: $border-radius;
+    color: $primary-color;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    width: 90%;
+
+}
+.select{
+    border: 0;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    height: $finger-size;
+
+}
+.formItem{
+    position: relative;
+    .icon{
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .text{
+        padding-left: 40px;
+    }
 }

@@ -368,6 +368,7 @@ a {
           align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+  font-family: inherit;
   height: 44px;
   background-color: #ff5a5f;
   color: white;
@@ -625,5 +626,41 @@ a {
 .search .yazi {
   position: absolute;
   right: 0;
+}
+
+.text {
+  font-family: inherit;
+  border: 0;
+  height: 44px;
+  border-radius: 5px;
+  color: #ff5a5f;
+  font-weight: 500;
+  padding-left: 15px;
+  padding-bottom: 3px;
+  width: 90%;
+}
+
+.select {
+  border: 0;
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  height: 44px;
+}
+
+.formItem {
+  position: relative;
+}
+
+.formItem .icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.formItem .text {
+  padding-left: 40px;
 }
 /*# sourceMappingURL=main.css.map */
